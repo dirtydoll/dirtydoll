@@ -1,4 +1,4 @@
-# Hexagon City Builder Game
+# Hexagon City Builder Game by Marat
 
 A multiplayer hexagonal grid-based city building game built with modern web technologies.
 
