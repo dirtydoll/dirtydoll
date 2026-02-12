@@ -35,7 +35,7 @@ If you prefer to set up the database manually without Docker:
    - Run database migrations
    - Start the backend server on port 5000
    - Install frontend dependencies
-   - Start the frontend server on port 3000
+   - Start the frontend server on port 3001
 
 2. **Stop the development environment:**
    ```bash
@@ -96,7 +96,7 @@ DATABASE_URL="postgresql://hexagon_user:hexagon_password@localhost:5432/hexagon_
 
 1. **Port already in use:**
    - Make sure no other PostgreSQL instances are running on port 5432
-   - Check that no other applications are using ports 3000 or 5000
+   - Check that no other applications are using ports 3001 or 5000
 
 2. **Database connection errors:**
    - Verify that the database container is running: `docker ps`

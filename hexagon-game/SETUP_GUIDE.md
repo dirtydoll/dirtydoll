@@ -27,7 +27,7 @@ The easiest way to run the project locally is using the provided batch scripts:
    - Apply database migrations using Drizzle Kit
    - Start the backend server on port 5000
    - Install frontend dependencies
-   - Start the frontend server on port 3000
+   - Start the frontend server on port 3001
 
 2. **Stop the development environment:**
    ```
@@ -38,7 +38,7 @@ The easiest way to run the project locally is using the provided batch scripts:
    - Stop the PostgreSQL database container
    - Terminate all Node.js processes
 
-3. Once started, open your browser and navigate to `http://localhost:3000`
+3. Once started, open your browser and navigate to `http://localhost:3001`
 
 ## Manual Setup (Alternative Method)
 
@@ -106,7 +106,7 @@ If you prefer to set up the project manually:
 ### 4. Running the Application
 
 1. Make sure both the backend and frontend servers are running
-2. Open your browser and navigate to `http://localhost:3000`
+2. Open your browser and navigate to `http://localhost:3001`
 3. You should now be able to register an account and start playing the game
 
 ## Database Access

@@ -41,15 +41,18 @@ echo ===========================================
 echo.
 echo PostgreSQL is running on localhost:5432
 echo.
-echo To start the servers:
-echo   1. Run "run-backend.bat" in a new terminal to start the backend server on port 5000
-echo   2. Run "run-frontend.bat" in another terminal to start the frontend server on port 3000
+echo Starting backend server on port 5000...
+start "Hexagon Backend" cmd /k "cd /d %~dp0backend && npm run dev"
+
+REM Wait a bit for the backend to start
+timeout /t 3 /nobreak >nul
+
+echo Starting frontend server on port 3001...
+start "Hexagon Frontend" cmd /k "cd /d %~dp0frontend && npm run dev"
+
 echo.
-echo Alternatively, run these commands separately:
-echo   - From the backend folder: npm run dev
-echo   - From the frontend folder: npm run dev
-echo.
-echo The game will be available at http://localhost:3000
+echo Both servers are starting in separate windows.
+echo The game will be available at http://localhost:3001
 echo.
 echo Press any key to exit...
 pause >nul

@@ -91,7 +91,7 @@ hexagon-game/
    GOOGLE_CLIENT_SECRET="your_google_client_secret"
    DISCORD_CLIENT_ID="your_discord_client_id"
    DISCORD_CLIENT_SECRET="your_discord_client_secret"
-   CLIENT_URL="http://localhost:3000"
+   CLIENT_URL="http://localhost:3001"
    ```
 4. Run database migrations: `npx drizzle-kit push`
 5. Start the server: `npm run dev`
@@ -101,7 +101,7 @@ hexagon-game/
 2. Install dependencies: `npm install`
 3. Start the development server: `npm run dev`
 
-The game will be accessible at `http://localhost:3000`.
+The game will be accessible at `http://localhost:3001`.
 
 ## Game Mechanics
 
