@@ -1,0 +1,27 @@
+Backend (Server)
+The backend is built on:
+Node.js with Express framework
+TypeScript for type safety
+PostgreSQL database with Drizzle ORM for database operations
+JWT (JSON Web Tokens) for authentication and session management
+Socket.IO for real-time communication
+Passport.js for OAuth authentication (Google, Discord, Twitter)
+Various utilities including Winston for logging, Helmet for security, etc.
+
+Frontend (Client)
+The frontend is built on:
+React (version 19.x) with TypeScript
+Tailwind CSS for styling
+wouter for routing
+TanStack Query (formerly React Query) for data fetching and state management
+i18next with react-i18next for internationalization (supports English and Russian)
+Radix UI components with shadcn/ui-style implementations
+Socket.IO client for real-time features
+Lucide React for icons
+React Hook Form with Zod for form validation
+
+Host: localhost
+Port: 5432
+Database: hexagon_game
+Username: hexagon_user
+Password: hexagon_password
